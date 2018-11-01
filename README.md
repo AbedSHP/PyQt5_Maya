@@ -6,7 +6,7 @@ PyQt does not have the same licensing as Maya, Qt, or Python.
 Please consult the PyQt website for information about licensing for PyQt.
 
 
-required for build Qt5 for Maya 2018 :
+# required for build Qt5 for Maya 2018 :
 
 - Maya 2018 !
 - visual studio 2017 + Build Tools
@@ -51,7 +51,7 @@ C:\Program Files\Autodesk\Maya2018\bin\qt.conf
 Notice: Please backup your qt.conf first, you’ll need to restore it after building PyQt5.
 
 to this :
-
+```bash
 [Paths]
 Prefix=$(MAYA_LOCATION)
 Libraries=lib
@@ -61,6 +61,7 @@ Data=.
 Plugins=qt-plugins
 Translations=qt-translations
 Qml2Imports=qml
+```
 
 
 and Extract file to :

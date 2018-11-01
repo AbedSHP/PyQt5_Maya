@@ -1,5 +1,5 @@
 ### PyQt5_Maya
-Build PyQt5 for Maya 2018 (Windows 64bit Only)
+Built PyQt5 for Maya 2018 (Windows 64bit Only)
 
 Notice: 
 PyQt does not have the same licensing as Maya, Qt, or Python.
